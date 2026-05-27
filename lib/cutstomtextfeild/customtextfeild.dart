@@ -20,6 +20,7 @@ class Customtextfeild extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextField(
       controller: txtCtrl,
+      obscureText: isPassword ? true : false,
       keyboardType: isMobileNumber
           ? TextInputType.phone
           : isGmail

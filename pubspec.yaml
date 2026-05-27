@@ -1,7 +1,7 @@
 name: my_flutter_customtextfeild
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/AkshaySarkale/librariy_flutter_customtextfeild.git
 
 environment:
   sdk: ^3.11.4

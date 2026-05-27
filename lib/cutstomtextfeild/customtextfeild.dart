@@ -28,6 +28,7 @@ class Customtextfeild extends StatelessWidget {
           : null,
       decoration: InputDecoration(
         hint: Text(hintText),
+        suffixIcon: isPassword ? IconButton(onPressed: (){}, icon: Icon(Icons.remove_red_eye)) : null,
         border: OutlineInputBorder(),
       ),
     );
